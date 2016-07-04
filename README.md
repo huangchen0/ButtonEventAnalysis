@@ -1,0 +1,2 @@
+# ButtonEventAnalysis
+本篇文章分析了Android事件分发机制之Button的OnTouch事件，为了方便读者理解，只需要记住down事件返回值标记此次事件是否为点击事件（返回false，是点击事件；返回true，不记为点击事件），而up事件标记此次事件结束时间这个关键点就好了。
